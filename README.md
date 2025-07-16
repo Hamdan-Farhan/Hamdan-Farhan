@@ -22,14 +22,6 @@ me = SoftwareEngineer()
 me.say_hi()
 ```
 
-
-
-
-
-
-
----
-
 ## 🧠 About Me
 
 I'm an Information Technology professional with strong experience in building and managing digital solutions. I specialize in web development, game development, and network infrastructure. I'm passionate about creating efficient, scalable, and secure applications.
@@ -72,27 +64,6 @@ Always exploring new technologies and staying updated with the latest in softwar
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 
 
-
-
-## ⚒️ Technical Skills
-
-- 💻 **Programming Languages**:  
-  `Python` | `JavaScript` | `C#` | `PHP` | `HTML` | `CSS`
-
-- 🌍 **Web Development**:  
-  `React` | `Vue.js` | `Laravel` | `Node.js` | `WordPress`
-
-- 🎮 **Game Development**:  
-  `Unity` | `Unreal Engine` | `C# Scripting`
-
-- 🛠️ **DevOps & Networking**:  
-  `Linux` | `Docker` | `Git/GitHub` | `Cisco` | `Network Security`
-
-- ☁️ **Cloud Services**:  
-  `AWS` | `Azure` | `Firebase`
-
----
-
 ## 📂 Featured Projects
 
 👨‍💻 **[Project Name 1]** – A brief description of the project  
@@ -116,20 +87,3 @@ Always exploring new technologies and staying updated with the latest in softwar
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=zhenye-na&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 🗂️ Highlight Projects
-
-<a href="https://github.com/Zhenye-Na/DA-RNN">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zhenye-na&repo=DA-RNN&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
-
-<a href="https://github.com/Zhenye-Na/crnn-pytorch">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zhenye-na&repo=crnn-pytorch&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="crnn-pytorch" />
-</a>
-
-
-
-
-
-
-
-> ⭐ Feel free to follow me for future project updates and collaborations!
