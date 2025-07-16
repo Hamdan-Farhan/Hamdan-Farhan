@@ -82,8 +82,3 @@ Always exploring new technologies and staying updated with the latest in softwar
 
 ---
 
-
-## 🏆 GitHub Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=zhenye-na&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
