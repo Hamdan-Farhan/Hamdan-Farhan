@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Hamdan Farhan
+# 👋 Hamdan Farhan
 
 🎯 IT Specialist | 💻 Programmer & Web Developer | 🎮 Game Developer | 🌐 Network Expert
 
