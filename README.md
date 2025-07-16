@@ -88,7 +88,7 @@ Always exploring new technologies and staying updated with the latest in softwar
 
 ## 📬 Contact Me
 
-- 📧 Email: `your_email@example.com`  
+- 📧 Email: `Hamdan_email@example.com`  
 - 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)  
 - 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
 
