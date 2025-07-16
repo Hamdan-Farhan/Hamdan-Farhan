@@ -3,7 +3,7 @@
 🎯 IT Specialist | 💻 Programmer & Web Developer | 🎮 Game Developer | 🌐 Network Expert
 
 
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="220">
 <p><em>Technical Lead at <a href="https://fliki.ai/">Fliki.AI
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/misteranmol?label=Follow)](https://twitter.com/intent/follow?screen_name=misteranmol)
