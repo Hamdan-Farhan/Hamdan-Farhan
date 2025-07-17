@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الساعة والعداد</title>
+  <style>
+    body {
+      font-family: "Cairo", sans-serif;
+      background: radial-gradient(circle at center, #3a6186, #89253e);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      text-align: center;
+      width: 350px;
+      backdrop-filter: blur(10px);
+    }
+
+    .icon {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+      color: white;
+      font-size: 3rem;
+      box-shadow: 0 5px 15px rgba(255, 155, 155, 0.4);
+      margin-bottom: 20px;
+      animation: float 3s infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .text {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .time-display, .counter-display {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fdfdfd;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- الساعة -->
+    <div class="icon">
+      🕒
+    </div>
+    <p class="text">الوقت الآن:</p>
+    <p class="time-display" id="clock">00:00:00</p>
+
+    <!-- العداد -->
+    <div class="icon" style="background: linear-gradient(45deg, #a18cd1, #fbc2eb);">
+      🔢
+    </div>
+    <p class="text">العداد:</p>
+    <p class="counter-display" id="counter">0</p>
+  </div>
+
+  <script>
+    // تحديث الساعة
+    function updateClock() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, "0");
+      const minutes = String(now.getMinutes()).padStart(2, "0");
+      const seconds = String(now.getSeconds()).padStart(2, "0");
+      document.getElementById("clock").textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+    // تحديث العداد
+    let count = 0;
+    function updateCounter() {
+      count++;
+      document.getElementById("counter").textContent = count;
+    }
+
+    // تشغيل الوظائف
+    setInterval(updateClock, 1000); // تحديث الساعة كل ثانية
+    setInterval(updateCounter, 1000); // تحديث العداد كل ثانية
+  </script>
+</body>
+</html>
+

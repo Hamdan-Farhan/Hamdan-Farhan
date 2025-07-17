@@ -1,0 +1,117 @@
+
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الصور الفني</title>
+    <style>
+        /* إعدادات الصفحة العامة */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72,darkslateblue, #56b4d3);
+            background-size: 300% 300%;
+            animation: gradientBackground 8s infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: white;
+        }
+
+        h1 {
+            position: absolute;
+            top: 20px;
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* إعدادات الحركة الدائرية */
+        .circle-gallery {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            animation: spin 10s linear infinite;
+        }
+
+        .circle-gallery img {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        /* ترتيب الصور بشكل دائري */
+        .circle-gallery img:nth-child(1) {
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .circle-gallery img:nth-child(2) {
+            top: 50%;
+            left: 100%;
+            transform: translate(-50%, -50%);
+        }
+
+        .circle-gallery img:nth-child(3) {
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+        }
+
+        .circle-gallery img:nth-child(4) {
+            top: 50%;
+            left: 0;
+            transform: translate(-50%, -50%);
+        }
+
+        /* حركات الخلفية */
+        @keyframes gradientBackground {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* حركة الدوران */
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* حركة التمايل */
+        @keyframes float {
+            0%, 100% {
+                transform: translate(-50%, -50%) translateY(-10px);
+            }
+            50% {
+                transform: translate(-50%, -50%) translateY(10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>معرض الصور الفني</h1>
+    <div class="circle-gallery">
+        <img src="./images/IMG_AI.jpg" alt="صورة 1">
+        <img src="./images/IMG_Java.jpg" alt="صورة 2">
+        <img src="./images/IMG_PHP.jpg" alt="صورة 3">
+        <img src="./images/IMG_Python.jpg" alt="صورة 4">
+    </div>
+</body>
+</html>
