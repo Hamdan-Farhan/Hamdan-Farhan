@@ -1,37 +1,409 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome In Coffee - Hamdan</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <title>WhatsApp</title>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
+    <div class="container">
+        <!-- ========= left side ========== -->
+        <div class="left-side">
+            <div class="header">
+                <div class="user-imgBx">
+                    <img src="assets/imgs/img9.jpg" alt="">
+                </div>
 
-    <!--هذا اضافي مني-->
-    <button onclick="playCoffee()">تشغيل</button>
-    <button onclick="pause()">ايقاف</button>
-    <button onclick="load()">تحديث</button>
-    <audio id="Coffee-video.mp4" >
-    <source src="Coffee-video.mp4" type="audio/mp4">
-    </audio>
-    <!--هذا اضافي مني-->
+                <ul class="nav-icons">
+                    <li>
+                        <ion-icon name="scan-circle-outline"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon name="chatbox"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </li>
+                </ul>
+            </div>
 
-    
-    <div class="preloader">
-        <img src="preloader.gif" alt="preloader">
+            <div class="search-chat">
+                <input type="text" placeholder="Search or start new chat">
+                <ion-icon name="search-outline"></ion-icon>
+            </div>
+
+            <div class="chat-list">
+                <div class="chat active">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img0.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Mohammed Ali</h4>
+                            <span class="time">10:57</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                How to Make WhatsApp clone using html and css only
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img2.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Ahmed Samy</h4>
+                            <span class="time">09:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num unread">1</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img3.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Emad Sameer</h4>
+                            <span class="time">09:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube also i found you on facebook
+                            </p>
+                            <b class="num unread">3</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img4.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Mazen Ashraf</h4>
+                            <span class="time">09:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num unread">2</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img5.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Amr Shaheen</h4>
+                            <span class="time">05:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img6.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Moaaz Ahmed</h4>
+                            <span class="time">05:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- repeat last three 2X -->
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/testimonial-4.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Al Mutasim</h4>
+                            <span class="time">09:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/testimonial-3.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Yahya Alazab</h4>
+                            <span class="time">05:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/team-3.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Ahmed</h4>
+                            <span class="time">05:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/testimonial-1.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Marya</h4>
+                            <span class="time">09:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/team-2.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Dr Ahmed</h4>
+                            <span class="time">05:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="imgBx">
+                        <img src="assets/imgs/img10.jpg" alt="">
+                    </div>
+
+                    <div class="details">
+                        <div class="head">
+                            <h4 class="name">Engineer</h4>
+                            <span class="time">05:25</span>
+                        </div>
+
+                        <div class="msgs">
+                            <p class="msg">
+                                Hi, i found you on youtube
+                            </p>
+                            <b class="num"></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========= right side ========== -->
+        <div class="right-side">
+            <div class="header">
+                <div class="user-details">
+                    <div class="user-imgBx">
+                        <img src="assets/imgs/img0.jpg" alt="">
+                    </div>
+
+                    <h4>Mohammed Ali <br>
+                        <span>Online</span>
+                    </h4>
+                </div>
+
+                <ul class="nav-icons">
+                    <li>
+                        <ion-icon name="search-outline"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon name="ellipsis-vertical"></ion-icon>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="chatBx">
+                <div class="msg msg-me">
+                    <p>Hi <br> <span>12:15</span></p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>Hello <br> <span>12:15</span></p>
+                </div>
+
+                <!-- repeat 8X  -->
+                <div class="msg msg-me">
+                    <p>How are you and how was the trip to the Netherlands , is it raining . <br>
+                        <span>12:15</span>
+                    </p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>The trip was fun and entertaining and the atmosphere was rainy. <br> <span>12:15</span></p>
+                </div>
+
+                <div class="msg msg-me">
+                    <p>Do they have specializations in the field Cybersecurity , and Information Technology 
+                        And do they have free seats ? <br>
+                        <span>12:15</span>
+                    </p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>Yes,they have all the specialties, especially Cybersecurity <br> They also have Psychology .
+                        <span>12:15</span>
+                    </p>
+                </div>
+
+                <div class="msg msg-me">
+                    <p>Wow ! it ' s a developed and emerging country you know 
+                       <br>When you 'll be back from traveling !
+                        <span>12:15</span>
+                    </p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>Yes, it ' s scientifically adanced , we' ll be back soon.
+                       
+                        <span>12:15</span>
+                    </p>
+                </div>
+
+                <div class="msg msg-me">
+                    <p>Ok <br> <span>12:15</span></p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>Thank You <br> <span>12:15</span></p>
+                </div>
+
+                <div class="msg msg-me">
+                    <p>How are you and how was the trip to the Netherlands , is it raining . <br>
+                        <span>12:15</span>
+                    </p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>The trip was fun and entertaining and the atmosphere was rainy. <br> <span>12:15</span></p>
+                </div>
+
+                <div class="msg msg-me">
+                    <p>Do they have specializations in the field Cybersecurity , and Information Technology 
+                        And do they have free seats ? <br>
+                        <span>12:15</span>
+                    </p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>Yes,they have all the specialties, especially Cybersecurity <br> They also have Psychology .
+                        <span>12:15</span>
+                    </p>
+                </div>
+
+                <div class="msg msg-me">
+                    <p>Wow ! it ' s a developed and emerging country you know 
+                        <br>When you 'll be back from traveling !
+                        <span>12:15</span>
+                    </p>
+                </div>
+                <div class="msg msg-frnd">
+                    <p>Yes, it ' s scientifically adanced , we' ll be back soon.
+                        <span>12:15</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="chat-input">
+                <ion-icon name="happy-outline"></ion-icon>
+                <ion-icon name="attach-outline"></ion-icon>
+                <input type="text" placeholder="Type a messsage">
+                <ion-icon name="mic-outline"></ion-icon>
+            </div>
+        </div>
     </div>
-   <Header>
-       <video class="Coffee-video" muted autoplay loop src="Coffee-video.mp4"></video>
-       <h1>Welcome In Coffee - Hamdan</h1>
-       <button class="btn btn-secondary">
-        <i class="fa fa-pause" aria-hidden="true"></i>
-       </button>
-   </Header>
-   <script src="index.js"></script>
+
+
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
+
+
