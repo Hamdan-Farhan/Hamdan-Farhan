@@ -1,0 +1,367 @@
+
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ 
+}
+
+header{
+
+    background-color:#f0f0f0;
+    width: 100%;
+    position: fixed;
+    /* يبقى الهدر ثابت*/
+    z-index: 999;                               
+    /*  header تخلي المنيو ثابت او */
+    display: flex;                              
+    /* ترتيب المنيو */
+   justify-content: space-between;         
+    /* مسافة */
+    align-items: center;                       
+    /* تسطير او عمودي */
+    padding: 30px 200px;
+
+}
+
+.logo{
+
+    text-decoration: none;                     
+    /* يشيل الخط من تحت الرابط */
+    color:#3a6cf4;
+    text-transform: uppercase;                
+    /* يخلي الاحرف كبيرة */
+    font-weight: 900;
+    font-size: 1.8em;
+
+}
+
+.div1 a{
+
+    text-decoration: none;
+    color:#3a6cf4;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-left: 30px;
+
+}
+
+.div1 a:hover{
+
+    color:blue;
+}
+
+section{
+
+    padding: 100px  100px;
+}
+
+.main{
+
+    width: 100%;
+    min-height: 100vh;                                     
+    /* Vh تغطي الصفحة بلكامل */
+    display: flex;
+    align-items: center;                                   
+    /* يتحكم في توسيط التعبير */
+    background:url(images/IMG_SQL.jpg) no-repeat;
+    background-size: cover;                               
+    /* خل الصورة تحتوي الصفحة كامل */
+    background-attachment: fixed;                        
+    /*  يخلي الصورة ثابتة عند التنقل بي الصفحات */
+
+}
+
+.main h2{
+
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+
+    display: inline-block;
+    margin-top: 10px;
+    color:#4e9eff;
+    font-size: 3.4em;
+    font-weight: 600;
+
+}
+.main h3{ 
+
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;       
+    /*  المسافة بين الاحرف */
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+
+    color: white;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display:inline-block;
+    padding: 0.9375em 2.1875em;           
+    /* تخلي الصفحة متنسقة عند التكبير والتصغير */
+    letter-spacing: 1px;
+    border-radius: 15px;                  
+    /* يعطي شكل للزرىر */ 
+    margin-bottom: 40px;
+    transition: 0.7s ease;                
+    /* يسرع حركة عند الظغط على الزرار */
+
+}
+
+/*  عند الظغط على الزرار */
+.main-btn:hover{
+
+    background-color: #0a49f6;
+    transform: scale(1.2);               
+    /*  عند الظغط على الزرار كبر حجمة */
+
+
+}
+
+
+
+/*  الايقونات */
+.icons img{
+
+    color: white;
+    width: 1.4em;
+    font-size: 3em;
+    padding-right: 20px;              
+    /* مسافة بين الايقونات */
+    transition: 0.5s ease;
+    
+
+}
+.icons img:hover{
+
+    transform: scale(1.4);    
+}
+
+
+
+/*  خاص بصفحة الخدمات  Services */
+
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    color:#3a6cf4;
+    font-size: 2.3em;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.content{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;                            
+    /*  يجعل الصور جنب بعض  */
+    flex-wrap: wrap;                                
+    /*  يخل الصور في مقاسة الاصلي لا تصغر */
+    
+    
+}
+.card{
+
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1,1, 20%);
+    border-radius: 10px;
+    padding: 25px;                                
+    /*  يعمل مساحة دخل الكرت */
+    margin: 15px;                                  
+    /*  يعمل مساحة بين الكروت */
+    transition: 0.7s ease;
+
+}
+.card:hover{
+
+    transform: scale(1.1);    
+
+}
+
+.icon2{
+
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align:center;
+}
+
+.info{
+
+    text-align: center;                       
+    /*  توسيط النص */
+}
+
+.info h3{
+
+    color: #3a6cf4;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+
+/* تنسيق صفحة المنتجات */
+
+.Projects{
+
+    background-color:#000016;
+    /* تغيير الخلفية */
+}
+
+.Projects.content{
+    
+    margin-top: 30px; 
+    /* مسافة بين اسم المنتج والمنتجات */
+}
+
+.project-card{
+
+    background-color: white;
+    border: 1px solid white;
+    /* الاطار الخارجي للصورة */
+    min-height: 14em;
+    width: 25em;
+    overflow: hidden;
+    /*  قص الصورة */
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+
+    transform: scale(1.1);
+}
+
+
+.project-image img{
+
+    width: 100%;
+}
+
+.project-info{
+
+    padding: 1em;
+}
+
+.project-category{
+
+    font-size: 1.5em;
+    color: black;
+}
+
+.project-title{
+
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+.more-details{
+
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.more-details:hover{
+
+    color: #601cfc;
+
+}
+
+
+
+/* خاص بصفحة التواصل */
+
+
+.contact .icon2 img{
+
+    width: 1.6em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.contact .info h3{
+
+    color:#3a6cf4;
+    font-size: 2.4em;
+    font-weight: 700;
+    /* يجعل الخط غامق */
+}
+
+.contact .info p{
+
+    font-size: 1.5em;
+
+}
+
+
+
+/*  خاص بحقوق النشر */
+
+.footer{
+
+    background-color:darkslateblue;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.footer-title{
+
+    font-size: 1.4em;
+    font-weight: 600;
+
+}
+
+.footer-title span{
+
+    color:white;
+    font-size: 1em;
+}
+
+.footer .social-icons img{
+
+    font-size: 1.4em;
+    padding-right: 20px;
+    transition: 0.6s ease;
+
+}
+.footer .social-icons img:hover{
+
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
