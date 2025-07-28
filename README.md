@@ -71,6 +71,7 @@ Always exploring new technologies and staying updated with the latest in softwar
 ![C#](https://img.shields.io/badge/Code-C#-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
 ![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
 ![PHP](https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
+![GoScript](https://img.shields.io/badge/Code-GoScript-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
 
 **Tools and Services:**
 
