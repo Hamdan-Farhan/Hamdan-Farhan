@@ -24,6 +24,7 @@ class SoftwareEngineer:
         self.name = "Hamdan Farhan"
         self.role = "Software Engineer"
         self.age  = " 23 Year"
+        Country   = "Yemen"
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting.")
