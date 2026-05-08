@@ -22,7 +22,7 @@ class SoftwareEngineer:
 
     def __init__(self):
         self.name = "Hamdan Farhan"
-        self.role = "Software Engineer"
+        self.role = "Software Engineer and Software Developer"
         self.age  = " 23 Year"
 
     def say_hi(self):
