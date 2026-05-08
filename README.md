@@ -66,15 +66,15 @@ Always exploring new technologies and staying updated with the latest in softwar
 ![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
 ![Rust](https://img.shields.io/badge/Code-Rust-informational?style=flat&logo=rust&logoColor=white&color=6aa6f8)
 ![Go](https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
-![Ruby](https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
-![Kotlin](https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
-![Flutter](https://img.shields.io/badge/Code-Go-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![Ruby](https://img.shields.io/badge/Code-Ruby-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![Kotlin](https://img.shields.io/badge/Code-Kotlin-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![Flutter](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
 ![JavaScript](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
 ![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
 ![C#](https://img.shields.io/badge/Code-C#-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
 ![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
 ![PHP](https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
-![TypeScript](https://img.shields.io/badge/Code-GoScript-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![TypeScript](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
 
 **Tools and Services:**
 
