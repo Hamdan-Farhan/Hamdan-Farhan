@@ -91,7 +91,7 @@ Always exploring new technologies and staying updated with the latest in softwar
 
 ## 📬 Contact Me
 
-- 📧 Email: `Hamdan_email@example.com`  
+- 📧 Email: `hmdanfrhan55@gmail.com`  
 - 💼 Link: [Your LinkedIn Profile](https://hamdan-farhan.github.io/Hamdan-Farhan/)  
 - 🌐 Portfolio: [yourwebsite.com](hhttps://hamdan-farhan.github.io/Hamdan-Farhan/)
 
